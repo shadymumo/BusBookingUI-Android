@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "476687035969",
+    "project_id": "ride-n-go-b1032",
+    "storage_bucket": "ride-n-go-b1032.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:476687035969:android:5c8d8f329ed44ade7ae0c0",
+        "android_client_info": {
+          "package_name": "com.shashank.platform.busbookingappui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "476687035969-0l699ehsv1nqv31vj9rj7f12gn78d6ff.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBbct9VCiUEQilAcXV_cDXFAOhgxVPktY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "476687035969-0l699ehsv1nqv31vj9rj7f12gn78d6ff.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Bus Booking App UI</string>
+    <string name="welcome_to_ridego">welcome to RideGo</string>
+    <string name="choose_your_pick_up_point">choose your pick up point.</string>
+    <string name="TIME">9:00AM - 12:30PM</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps_activitybet">MapsActivitybet</string>
+    <string name="title_activity_maps_activityruiru">MapsActivityruiru</string>
+    <string name="title_activity_maps_activitykenyattard">MapsActivitykenyattard</string>
+    <string name="title_activity_maps_utawala">MapsActivityUtawala</string>
+    <string name="title_activity_maps_bypass">MapsActivityBypass</string>
 </resources>

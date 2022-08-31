@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Main2Activity">
+    tools:context=".RuiaActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#512da8"
-        android:theme="@style/AppTheme.AppBarOverlay"
+        android:theme="@style/AppTheme.NoActionBar"
         app:elevation="0dp">
 
         <androidx.appcompat.widget.Toolbar
@@ -75,13 +75,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_alignParentTop="true"
-                        android:layout_centerHorizontal="true"
                         android:layout_marginTop="16dp"
-                        android:fontFamily="@font/print_clearly"
-                        android:text="Select your bus!"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Select the time you want to travel"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF"
-                        android:textSize="18sp" />
+                        android:textSize="20sp" />
 
                     <LinearLayout
                         android:id="@+id/linearLayout"
@@ -97,7 +96,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="45"
                             android:fontFamily="@font/gotham"
-                            android:text="Thika"
+                            android:text="Ruai"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
                             android:textSize="18sp" />
@@ -279,7 +278,7 @@
                                 android:layout_marginTop="4dp"
                                 android:layout_marginBottom="4dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="4 Hour"
+                                android:text="Deluxe service"
                                 android:textAlignment="textEnd"
                                 android:textColor="#b3b3b3" />
                         </LinearLayout>
@@ -353,7 +352,7 @@
                                 android:layout_marginTop="4dp"
                                 android:layout_marginBottom="4dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="3.15 Hour"
+                                android:text="fully booked"
                                 android:textAlignment="textEnd"
                                 android:textColor="#b3b3b3" />
                         </LinearLayout>
@@ -428,7 +427,7 @@
                                 android:layout_marginTop="4dp"
                                 android:layout_marginBottom="4dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="2.45 Hour"
+                                android:text="Express service"
                                 android:textAlignment="textEnd"
                                 android:textColor="#b3b3b3" />
                         </LinearLayout>
@@ -503,7 +502,7 @@
                                 android:layout_marginTop="4dp"
                                 android:layout_marginBottom="4dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="3.00 Hour"
+                                android:text="One pick up point"
                                 android:textAlignment="textEnd"
                                 android:textColor="#b3b3b3" />
                         </LinearLayout>

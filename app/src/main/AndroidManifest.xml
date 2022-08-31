@@ -3,6 +3,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.shashank.platform.busbookingappui">
 
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/bus_booking_logo"
@@ -11,6 +27,111 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup">
+        <activity
+            android:name=".Checkouttawala"
+            android:exported="false" />
+        <activity
+            android:name=".Checkoutbypss"
+            android:exported="false" />
+        <activity
+            android:name=".CheckoutRuiru"
+            android:exported="false" />
+        <activity
+            android:name=".checkoutjuj"
+            android:exported="false" />
+        <activity
+            android:name=".checkoutthik"
+            android:exported="false" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR_API_KEY" />
+
+        <activity
+            android:name=".MapsActivityBypass"
+            android:exported="false"
+            android:label="@string/title_activity_maps_bypass" />
+        <activity
+            android:name=".MapsActivityUtawala"
+            android:exported="false"
+            android:label="@string/title_activity_maps_utawala" />
+        <activity
+            android:name=".MapsActivitykenyattard"
+            android:exported="false"
+            android:label="@string/title_activity_maps_activitykenyattard" />
+        <activity
+            android:name=".MapsActivityruiru"
+            android:exported="false"
+            android:label="@string/title_activity_maps_activityruiru" />
+        <activity
+            android:name=".NairobiwestyrouteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".locationspecactivity"
+            android:exported="false" />
+        <activity
+            android:name=".MapsActivitybet"
+            android:exported="false"
+            android:label="@string/title_activity_maps_activitybet" />
+        <activity
+            android:name=".RuiaiBooking"
+            android:exported="false" />
+        <activity
+            android:name=".WestlandsBookingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NairobiTownActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LimuruRDBookingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KikuyuBookingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JujaBookingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomePageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentconfimationAtivity"
+            android:exported="false" />
+        <activity
+            android:name=".RuiaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NairobiTownCbdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LimururdActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WestlandsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KikuyuActvity"
+            android:exported="false" />
+        <activity
+            android:name=".JujaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".CheckoutActivity"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:configChanges="orientation|screenSize"
