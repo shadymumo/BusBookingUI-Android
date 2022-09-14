@@ -123,12 +123,12 @@
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:background="#252323"
+                                android:background="#F6F4F4"
 
                                 android:fontFamily="@font/calibri"
                                 android:text="Intercounty travels to be featured soon"
                                 android:textAlignment="textEnd"
-                                android:textColor="#f5a622"
+                                android:textColor="#131312"
                                 android:textSize="22sp"
                                 android:textStyle="bold" />
 
@@ -167,7 +167,7 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:background="#ECE7E7"
+                                android:background="#FFFEFE"
                                 android:fontFamily="@font/calibri"
                                 android:text="Enter your Name for ticket processing"
                                 android:textAlignment="textEnd"
@@ -362,13 +362,13 @@
                         <LinearLayout
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
-                            android:layout_weight="60"
+                            android:layout_weight="70"
                             android:orientation="vertical">
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:background="#009688"
+                                android:background="#F5FBFB"
                                 android:fontFamily="@font/calibri"
                                 android:onClick="payment"
                                 android:text="PAY AND PROCEED"

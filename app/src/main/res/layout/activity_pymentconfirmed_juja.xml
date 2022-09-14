@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PaymentconfimationAtivity">
+    tools:context=".PymentconfirmedJuja">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -92,18 +92,18 @@
                     <TextView
                         android:id="@+id/textView16"
                         android:layout_width="wrap_content"
-                        android:layout_height="397dp"
+                        android:layout_height="352dp"
                         android:layout_marginStart="24dp"
                         android:layout_marginTop="320dp"
                         android:layout_marginEnd="25dp"
                         android:layout_marginBottom="330dp"
-                        android:background="@color/white"
+                        android:background="#3B3940"
                         android:fontFamily="@font/gotham"
-                        android:onClick="gototHIKaMap"
-                        android:text="mpesa Payment confirmed from Thika > sgr. Note dont delete m-pesa message."
+                        android:onClick="gotoJujaMap"
+                        android:text="mpesa Payment confirmed from Juja > sgr. Note dont delete m-pesa message. Tap here to view on Map "
                         android:textAlignment="center"
                         android:textAllCaps="true"
-                        android:textColor="#673AB7"
+                        android:textColor="#28F830"
                         android:textColorHint="#FFEB3B"
                         android:textSize="38sp"
 

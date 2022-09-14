@@ -46,8 +46,8 @@ public class MapsActivitybet extends FragmentActivity implements OnMapReadyCallb
         // Add a marker in Sydney and move the camera
         LatLng Thika = new LatLng(-1.035171, 37.075715);
         mMap.addMarker(new MarkerOptions().position(Thika).title(" This is your pick up point"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(Thika));
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(Thika,20));
+
+        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(Thika,18));
 
 
     }

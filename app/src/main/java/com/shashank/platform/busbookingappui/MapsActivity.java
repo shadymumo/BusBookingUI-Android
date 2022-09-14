@@ -3,6 +3,7 @@ package com.shashank.platform.busbookingappui;
 import androidx.fragment.app.FragmentActivity;
 
 import android.os.Bundle;
+import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -41,10 +42,16 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
      */
     @Override
     public void onMapReady(GoogleMap googleMap) {
+
+
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
+        LatLng Juja = new LatLng(-1.106639, 37.015238);
+        mMap.addMarker(new MarkerOptions().position(Juja).title(" This is your pick up point"));
 
-       mMap.getMyLocation();
+        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(Juja,14));
+
+
     }
 }

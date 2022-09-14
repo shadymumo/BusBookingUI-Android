@@ -10,18 +10,18 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.shashank.platform.busbookingappui.databinding.ActivityMapsUtawalaBinding;
+import com.shashank.platform.busbookingappui.databinding.ActivityMapsThikaBinding;
 
-public class MapsActivityUtawala extends FragmentActivity implements OnMapReadyCallback {
+public class MapsActivityThika extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
-    private ActivityMapsUtawalaBinding binding;
+    private ActivityMapsThikaBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        binding = ActivityMapsUtawalaBinding.inflate(getLayoutInflater());
+        binding = ActivityMapsThikaBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
@@ -44,11 +44,8 @@ public class MapsActivityUtawala extends FragmentActivity implements OnMapReadyC
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-1.106639, 37.015238);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Picking point in JUja"));
-        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(sydney
-
-
-                ,18));
+        LatLng sydney = new LatLng(-34, 151);
+        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
 }

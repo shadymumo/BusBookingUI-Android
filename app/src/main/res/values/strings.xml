@@ -9,4 +9,5 @@
     <string name="title_activity_maps_activitykenyattard">MapsActivitykenyattard</string>
     <string name="title_activity_maps_utawala">MapsActivityUtawala</string>
     <string name="title_activity_maps_bypass">MapsActivityBypass</string>
+    <string name="title_activity_maps_thika">MapsActivityThika</string>
 </resources>

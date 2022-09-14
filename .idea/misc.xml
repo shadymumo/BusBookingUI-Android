@@ -11,6 +11,7 @@
         <entry key="..\:/Users/t/AndroidStudioProjects/BusBookingUI-Android/app/src/main/res/layout/activity_checkoutthik.xml" value="0.18127404873877725" />
         <entry key="..\:/Users/t/AndroidStudioProjects/BusBookingUI-Android/app/src/main/res/layout/activity_juja.xml" value="0.37958818263205013" />
         <entry key="..\:/Users/t/AndroidStudioProjects/BusBookingUI-Android/app/src/main/res/layout/activity_juja_booking.xml" value="0.25" />
+        <entry key="..\:/Users/t/AndroidStudioProjects/BusBookingUI-Android/app/src/main/res/layout/activity_kenyattaroadbooking.xml" value="0.18127404873877725" />
         <entry key="..\:/Users/t/AndroidStudioProjects/BusBookingUI-Android/app/src/main/res/layout/activity_kikuyu_actvity.xml" value="0.25" />
         <entry key="..\:/Users/t/AndroidStudioProjects/BusBookingUI-Android/app/src/main/res/layout/activity_kikuyu_booking.xml" value="0.1" />
         <entry key="..\:/Users/t/AndroidStudioProjects/BusBookingUI-Android/app/src/main/res/layout/activity_limuru_rdbooking.xml" value="0.18127404873877725" />
@@ -19,12 +20,14 @@
         <entry key="..\:/Users/t/AndroidStudioProjects/BusBookingUI-Android/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/t/AndroidStudioProjects/BusBookingUI-Android/app/src/main/res/layout/activity_main2.xml" value="0.25" />
         <entry key="..\:/Users/t/AndroidStudioProjects/BusBookingUI-Android/app/src/main/res/layout/activity_main3.xml" value="0.22" />
+        <entry key="..\:/Users/t/AndroidStudioProjects/BusBookingUI-Android/app/src/main/res/layout/activity_main4.xml" value="0.18127404873877725" />
         <entry key="..\:/Users/t/AndroidStudioProjects/BusBookingUI-Android/app/src/main/res/layout/activity_maps.xml" value="0.18127404873877725" />
         <entry key="..\:/Users/t/AndroidStudioProjects/BusBookingUI-Android/app/src/main/res/layout/activity_maps_activitybet.xml" value="0.18127404873877725" />
         <entry key="..\:/Users/t/AndroidStudioProjects/BusBookingUI-Android/app/src/main/res/layout/activity_nairobi_town.xml" value="0.1" />
         <entry key="..\:/Users/t/AndroidStudioProjects/BusBookingUI-Android/app/src/main/res/layout/activity_nairobi_town_cbd.xml" value="0.18127404873877725" />
         <entry key="..\:/Users/t/AndroidStudioProjects/BusBookingUI-Android/app/src/main/res/layout/activity_nairobiwestyroute.xml" value="0.18127404873877725" />
-        <entry key="..\:/Users/t/AndroidStudioProjects/BusBookingUI-Android/app/src/main/res/layout/activity_paymentconfimation_ativity.xml" value="0.25" />
+        <entry key="..\:/Users/t/AndroidStudioProjects/BusBookingUI-Android/app/src/main/res/layout/activity_paymentconfimation_ativity.xml" value="0.1962962962962963" />
+        <entry key="..\:/Users/t/AndroidStudioProjects/BusBookingUI-Android/app/src/main/res/layout/activity_pymentconfirmed_juja.xml" value="0.18127404873877725" />
         <entry key="..\:/Users/t/AndroidStudioProjects/BusBookingUI-Android/app/src/main/res/layout/activity_ruia.xml" value="0.22" />
         <entry key="..\:/Users/t/AndroidStudioProjects/BusBookingUI-Android/app/src/main/res/layout/activity_ruiai_booking.xml" value="0.1" />
         <entry key="..\:/Users/t/AndroidStudioProjects/BusBookingUI-Android/app/src/main/res/layout/activity_welcome_page.xml" value="0.18127404873877725" />

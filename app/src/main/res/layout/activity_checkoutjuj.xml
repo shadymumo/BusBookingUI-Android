@@ -348,7 +348,7 @@
                     android:clickable="true"
                     android:focusable="true"
                     android:foreground="?android:attr/selectableItemBackground"
-                    android:onClick="payment"
+                    android:onClick="gotoconfirmedpay"
                     app:cardCornerRadius="4dp"
                     app:cardUseCompatPadding="true"
                     app:contentPadding="16dp">
@@ -368,9 +368,9 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:background="#009688"
+                                android:background="#FAFFFF"
                                 android:fontFamily="@font/calibri"
-                                android:onClick="payment"
+                                android:onClick="gotoconfirmedpay"
                                 android:text="PAY AND PROCEED"
                                 android:textAlignment="textEnd"
                                 android:textColor="#0E0D0C"
