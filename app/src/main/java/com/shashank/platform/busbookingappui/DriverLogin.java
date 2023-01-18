@@ -6,17 +6,20 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class checkoutthik extends AppCompatActivity {
+public class DriverLogin extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_checkoutthik);
+        setContentView(R.layout.activity_driver_login);
     }
+
+
+
     public void gotoHome(View V){
 
 
-        Intent myIntent = new Intent(checkoutthik.this,locationspecactivity.class);
+        Intent myIntent = new Intent(DriverLogin.this,MainActivity.class);
         startActivity(myIntent);
 
     }
