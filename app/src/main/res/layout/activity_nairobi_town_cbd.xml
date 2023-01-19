@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#512da8"
-        android:theme="@style/AppTheme.NoActionBar"
+        android:theme="@style/Theme.Neumorphism"
         app:elevation="0dp">
 
         <androidx.appcompat.widget.Toolbar
