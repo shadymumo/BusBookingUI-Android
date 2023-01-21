@@ -34,8 +34,20 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+    public void gotoDatepicker2(View V){
 
 
+        Intent myIntent = new Intent(MainActivity.this,DatePicker2Activity.class);
+        startActivity(myIntent);
+
+    }
+    public void gotoDriverportal(View V){
+
+
+        Intent myIntent = new Intent(MainActivity.this,DriverLogin.class);
+        startActivity(myIntent);
+
+    }
     public void gototHIKROUTE(View V){
 
 

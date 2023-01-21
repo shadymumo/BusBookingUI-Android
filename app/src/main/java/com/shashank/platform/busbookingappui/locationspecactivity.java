@@ -20,6 +20,15 @@ public class locationspecactivity extends AppCompatActivity {
 
 
     }
+
+    public void gotoHome(View V){
+
+
+        Intent myIntent = new Intent(locationspecactivity.this,MainActivity.class);
+        startActivity(myIntent);
+
+    }
+
     public void gotothikdirect(View V){
 
 

@@ -17,7 +17,13 @@ public class Main3Activity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main3);
     }
+    public void gotoHome(View V){
 
+
+        Intent myIntent = new Intent(Main3Activity.this,locationspecactivity.class);
+        startActivity(myIntent);
+
+    }
 
     public void gotocheckout(View V){
 
