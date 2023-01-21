@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.shashank.platform.busbookingappui" >
+    package="com.shashank.platform.busbookingappui">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -17,7 +17,10 @@
         android:roundIcon="@drawable/bus_booking_round_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.Neumorphism"
-        tools:ignore="AllowBackup" >
+        tools:ignore="AllowBackup">
+        <activity
+            android:name=".DriverdashActivity"
+            android:exported="false" />
         <activity
             android:name=".DriverLoginactivity"
             android:exported="false" />
@@ -147,7 +150,7 @@
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Neumorphism"
             android:windowSoftInputMode="stateHidden|adjustPan"
-            tools:ignore="IntentFilterExportedReceiver" >
+            tools:ignore="IntentFilterExportedReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

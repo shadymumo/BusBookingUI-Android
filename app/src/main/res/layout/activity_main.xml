@@ -23,13 +23,15 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="16dp">
+                android:layout_marginEnd="16dp"
+                android:onClick="gotoDriverLogin">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentEnd="true"
+                    android:onClick="gotoDriverLogin"
                     android:src="@drawable/ic_person_outline_white_24dp" />
 
             </RelativeLayout>
@@ -89,7 +91,7 @@
 
                 </RelativeLayout>
 
-                <androidx.cardview.widget.CardView
+                <soup.neumorphism.NeumorphCardView
                     android:id="@+id/cardView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -133,9 +135,9 @@
 
                     </LinearLayout>
 
-                </androidx.cardview.widget.CardView>
+                </soup.neumorphism.NeumorphCardView>
 
-                <androidx.cardview.widget.CardView
+                <soup.neumorphism.NeumorphCardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="8dp"
@@ -180,9 +182,9 @@
                             android:orientation="vertical" />
                     </LinearLayout>
 
-                </androidx.cardview.widget.CardView>
+                </soup.neumorphism.NeumorphCardView>
 
-                <androidx.cardview.widget.CardView
+                <soup.neumorphism.NeumorphCardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="8dp"
@@ -236,9 +238,9 @@
                         </LinearLayout>
                     </LinearLayout>
 
-                </androidx.cardview.widget.CardView>
+                </soup.neumorphism.NeumorphCardView>
 
-                <androidx.cardview.widget.CardView
+                <soup.neumorphism.NeumorphCardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="8dp"
@@ -292,9 +294,9 @@
                         </LinearLayout>
                     </LinearLayout>
 
-                </androidx.cardview.widget.CardView>
+                </soup.neumorphism.NeumorphCardView>
 
-                <androidx.cardview.widget.CardView
+                <soup.neumorphism.NeumorphCardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="8dp"
@@ -349,9 +351,9 @@
 
                     </LinearLayout>
 
-                </androidx.cardview.widget.CardView>
+                </soup.neumorphism.NeumorphCardView>
 
-                <androidx.cardview.widget.CardView
+                <soup.neumorphism.NeumorphCardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="8dp"
@@ -379,7 +381,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:fontFamily="@font/calibri"
-                                android:text="HELP FIND SUTABLE ROUTE"
+                                android:text="HELP "
                                 android:textAlignment="textEnd"
                                 android:textColor="#f5a622"
                                 android:textSize="24sp"
@@ -389,7 +391,7 @@
 
                     </LinearLayout>
 
-                </androidx.cardview.widget.CardView>
+                </soup.neumorphism.NeumorphCardView>
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"

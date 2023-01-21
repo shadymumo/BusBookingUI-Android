@@ -82,7 +82,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void gotoDriverLogin(View V){
 
+
+        Intent myIntent = new Intent(MainActivity.this,DriverLoginactivity.class);
+        startActivity(myIntent);
+
+    }
 
     public void gotoRuai(View V){
 
