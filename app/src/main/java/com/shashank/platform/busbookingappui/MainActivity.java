@@ -34,6 +34,14 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+    public void gotomainroutes(View V){
+
+
+        Intent myIntent = new Intent(MainActivity.this,MainRoutesActivity.class);
+        startActivity(myIntent);
+
+    }
     public void gotoDatepicker2(View V){
 
 

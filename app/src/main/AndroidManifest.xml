@@ -19,6 +19,9 @@
         android:theme="@style/Theme.Neumorphism"
         tools:ignore="AllowBackup">
         <activity
+            android:name=".MainRoutesActivity"
+            android:exported="false" />
+        <activity
             android:name=".DriverdashActivity"
             android:exported="false" />
         <activity

@@ -16,7 +16,6 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
 
 public class DriverLoginactivity extends AppCompatActivity {
     private EditText userMail,userPassword;
@@ -31,7 +30,7 @@ public class DriverLoginactivity extends AppCompatActivity {
         setContentView(R.layout.activity_driver_loginactivity);
 
 
-        btnLogin = findViewById(R.id.btnLogin);
+        btnLogin = findViewById(R.id.btnPayNow);
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -40,9 +39,9 @@ public class DriverLoginactivity extends AppCompatActivity {
             }
         });
 
-        userMail = findViewById(R.id.login_mail);
-        userPassword = findViewById(R.id.login_password);
-        btnLogin = findViewById(R.id.btnLogin);
+        userMail = findViewById(R.id.PhoneNumber);
+        userPassword = findViewById(R.id.Nameoftraveller);
+        btnLogin = findViewById(R.id.btnPayNow);
         loginProgress = findViewById(R.id.login_progress);
         mAuth = FirebaseAuth.getInstance();
         HomeActivity = new Intent(this,DriverdashActivity.class);

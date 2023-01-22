@@ -57,9 +57,7 @@
             android:filterTouchesWhenObscured="true"
             android:onClick="gotoOfficeLocation"
             app:neumorph_shadowColorDark="@color/text_color"
-            app:neumorph_shadowColorLight="@color/text_color"
-            app:neumorph_shapeType="pressed"
-            app:neumorph_strokeColor="#CDDC39">
+           >
 
             <View
                 android:layout_width="169dp"
@@ -338,7 +336,8 @@
                     android:layout_marginTop="15dp"
                     android:gravity="center_horizontal"
 
-                    android:text="Cancel Trip"
+                    android:onClick="gotoOfficeLocation"
+                    android:text="Home"
                     android:textAlignment="center"
                     android:textColor="@color/highlight"
                     android:textSize="20sp" />
