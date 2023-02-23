@@ -32,7 +32,7 @@ public class locationspecactivity extends AppCompatActivity {
     public void gotothikdirect(View V){
 
 
-        Intent myIntent = new Intent(locationspecactivity.this,Main2Activity.class);
+        Intent myIntent = new Intent(locationspecactivity.this, ThikabookingActivity.class);
         startActivity(myIntent);
 
     }

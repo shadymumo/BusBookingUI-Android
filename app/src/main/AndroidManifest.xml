@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.shashank.platform.busbookingappui">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
@@ -161,14 +160,14 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Main2Activity"
+            android:name=".ThikabookingActivity"
             android:configChanges="orientation|screenSize"
             android:label=""
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Neumorphism"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity
-            android:name=".Main3Activity"
+            android:name=".ThikaPaymentActivity"
             android:configChanges="orientation|screenSize"
             android:label=""
             android:screenOrientation="fullSensor"

@@ -16,13 +16,7 @@ public class MainRoutesActivity extends AppCompatActivity {
 
 
 
-    public void gotomainroutes(View V){
 
-
-        Intent myIntent = new Intent(MainRoutesActivity.this,MainRoutesActivity.class);
-        startActivity(myIntent);
-
-    }
     public void gotoDatepicker2(View V){
 
 
@@ -30,10 +24,10 @@ public class MainRoutesActivity extends AppCompatActivity {
         startActivity(myIntent);
 
     }
-    public void gotoDriverportal(View V){
+    public void gotoHomepage(View V){
 
 
-        Intent myIntent = new Intent(MainRoutesActivity.this,DriverLogin.class);
+        Intent myIntent = new Intent(MainRoutesActivity.this,MainActivity.class);
         startActivity(myIntent);
 
     }
@@ -49,7 +43,7 @@ public class MainRoutesActivity extends AppCompatActivity {
     public void gotopage3(View V){
 
 
-        Intent myIntent = new Intent(MainRoutesActivity.this,Main2Activity.class);
+        Intent myIntent = new Intent(MainRoutesActivity.this, ThikabookingActivity.class);
         startActivity(myIntent);
 
     }

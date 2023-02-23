@@ -20,6 +20,7 @@ android {
     buildFeatures {
         viewBinding true
     }
+    namespace 'com.shashank.platform.busbookingappui'
 }
 
 dependencies {

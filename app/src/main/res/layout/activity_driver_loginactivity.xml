@@ -7,125 +7,128 @@
     android:background="@drawable/bus_image_3"
     tools:context=".DriverLoginactivity">
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
-
-
-
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:text="Welcome"
-        android:textStyle="bold"
-        android:layout_height="wrap_content"
-        android:textSize="40sp"
-        android:textColor="#FFFFFF"
-        android:layout_marginTop="10dp"
-        android:layout_gravity="center"
-        android:transitionName="textview" />
-
-    <ImageView
-        android:id="@+id/imageView"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="166dp"
-        app:srcCompat="@drawable/github_logo" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:text="Let's get started"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
-        android:layout_gravity="center"
-        android:textColor="#FFFFFF"
-        android:layout_marginStart="10dp"/>
+        android:background="@drawable/rellyblu"
+        android:orientation="vertical">
 
 
-    <soup.neumorphism.NeumorphCardView
-        android:id="@+id/layout_email"
-        style="@style/Widget.Neumorph.CardView"
-        android:layout_width="314dp"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/layout_pass"
-        android:layout_gravity="center"
-        android:layout_marginTop="30dp"
-        app:neumorph_lightSource="rightBottom"
-        app:neumorph_shadowColorDark="@color/text_color"
-        app:neumorph_shadowElevation="3dp">
-
-
-        <EditText
-
-            android:id="@+id/PhoneNumber"
-            android:layout_width="277dp"
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:autofillHints=""
-            android:gravity="center"
-            android:hint=" Email"
-            android:inputType="textEmailAddress"
-            android:padding="14dp"
-            android:paddingEnd="10dp"
-            android:textColor="@color/highlight"
-            android:textColorHint="@color/highlight"
-            android:textSize="14sp" />
-    </soup.neumorphism.NeumorphCardView>
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Welcome"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:transitionName="textview" />
 
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="166dp"
+            app:srcCompat="@drawable/github_logo" />
 
-    <soup.neumorphism.NeumorphCardView
-        android:id="@+id/layout_password"
-        android:layout_width="316dp"
-        android:layout_height="69dp"
-        android:layout_above="@+id/layout_pass"
-        android:layout_gravity="center"
-        android:layout_marginTop="50dp"
-        app:neumorph_lightSource="rightBottom"
-        app:neumorph_shadowColorDark="@color/text_color"
-        app:neumorph_shadowElevation="3dp"
-        app:neumorph_shapeType="pressed">
-
-        <EditText
-            android:id="@+id/Nameoftraveller"
-            android:layout_width="280dp"
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:autofillHints=""
-            android:gravity="center"
-            android:hint=" password"
-            android:inputType="textPassword"
-            android:padding="14dp"
-            android:paddingEnd="10dp"
-            android:textColor="@color/highlight"
-            android:textColorHint="#FBFAF8" />
-    </soup.neumorphism.NeumorphCardView>
-
-    <soup.neumorphism.NeumorphButton
-
-        android:id="@+id/btnPayNow"
-        style="@style/Widget.Neumorph.Button"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="100dp"
-
-        android:text="Sign In"
-        android:textColor="#FFFFFF"
-        android:textSize="16dp"
-        app:neumorph_lightSource="rightBottom"
-        app:neumorph_shadowColorDark="@color/text_color"
-        app:neumorph_shadowElevation="3dp"
-        app:neumorph_shapeType="pressed"
-        ></soup.neumorphism.NeumorphButton>
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:text="Let's get started"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
 
 
-</LinearLayout>
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/layout_email"
+            style="@style/Widget.Neumorph.CardView"
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/layout_pass"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            app:neumorph_lightSource="rightBottom"
+            app:neumorph_shadowColorDark="@color/white"
+            app:neumorph_shadowElevation="3dp"
+            app:neumorph_shapeType="basin"
+            app:neumorph_strokeColor="#E91E63"
+            app:neumorph_strokeWidth="2dp">
 
-    <ProgressBar
-        android:id="@+id/login_progress"
-        style="?android:attr/progressBarStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:foregroundGravity="bottom"
-         />
+
+            <EditText
+
+                android:id="@+id/PhoneNumber"
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:gravity="center"
+                android:hint=" Email"
+                android:inputType="textEmailAddress"
+                android:padding="14dp"
+                android:paddingEnd="10dp"
+                android:textColor="@color/highlight"
+                android:textColorHint="@color/highlight"
+                android:textSize="14sp" />
+        </soup.neumorphism.NeumorphCardView>
+
+
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/layout_password"
+            android:layout_width="316dp"
+            android:layout_height="69dp"
+            android:layout_above="@+id/layout_pass"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            app:neumorph_lightSource="rightBottom"
+            app:neumorph_shadowColorDark="@color/text_color"
+            app:neumorph_shadowElevation="3dp"
+            app:neumorph_shapeType="basin"
+            app:neumorph_strokeColor="#E91E63"
+            app:neumorph_strokeWidth="2dp">
+
+            <EditText
+                android:id="@+id/Nameoftraveller"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:gravity="center"
+                android:hint=" password"
+                android:inputType="textPassword"
+                android:padding="14dp"
+                android:paddingEnd="10dp"
+                android:textColor="@color/highlight"
+                android:textColorHint="#FBFAF8" />
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphButton
+
+            android:id="@+id/btnPayNow"
+            style="@style/Widget.Neumorph.Button"
+            android:layout_width="197dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+
+            android:text="Sign In"
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            app:neumorph_lightSource="rightBottom"
+            app:neumorph_shadowColorDark="@color/text_color"
+            app:neumorph_shadowColorLight="#F44336"
+            app:neumorph_shadowElevation="3dp"
+            app:neumorph_shapeType="flat"></soup.neumorphism.NeumorphButton>
+
+        <ProgressBar
+            android:id="@+id/login_progress"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+
 
 
 </RelativeLayout>

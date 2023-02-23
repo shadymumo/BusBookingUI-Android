@@ -9,7 +9,7 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#512da8"
+        android:background="#096FEC"
         android:theme="@style/AppTheme.AppBarOverlay"
         app:elevation="0dp">
 
@@ -24,7 +24,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="16dp">
-
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:onClick="gotoHome"
+                    android:src="@drawable/ic_arrow_back_white_24dp" />
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -56,11 +62,13 @@
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rellyblu">
 
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="260dp"
+
                         android:scaleType="centerCrop"
                         android:src="@drawable/bus_image_1" />
 
@@ -77,17 +85,7 @@
                         android:textColor="#FFFFFF"
                         android:textSize="32sp" />
 
-                    <TextView
-                        android:id="@+id/textView2"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_below="@+id/textView"
-                        android:layout_marginTop="8dp"
-                        android:fontFamily="sans-serif-black"
-                        android:text="Get to SGR station in Time by choosing your route"
-                        android:textAlignment="center"
-                        android:textColor="#FFFFFF"
-                        android:textSize="18sp" />
+
 
                     <TextView
                         android:id="@+id/textView16"
@@ -100,7 +98,7 @@
                         android:background="@color/white"
                         android:fontFamily="@font/gotham"
                         android:onClick="gototHIKaMap"
-                        android:text="mpesa Payment confirmed from Thika > sgr. Note dont delete m-pesa message."
+                        android:text="mpesa Payment confirmed from Thika > sgr. Note dont delete m-pesa message. click to show map"
                         android:textAlignment="center"
                         android:textAllCaps="true"
                         android:textColor="#673AB7"

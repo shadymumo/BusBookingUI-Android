@@ -7,23 +7,29 @@ import android.view.Window;
 import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
 
-public class Main2Activity extends AppCompatActivity {
-
-    CardView cardView;
+public class ThikaPaymentActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_main2);
-        cardView = findViewById(R.id.cardView);
-        cardView.setOnClickListener(view -> {
-            Intent intent = new Intent(getApplicationContext(), Main3Activity.class);
-            startActivity(intent);
+        setContentView(R.layout.activity_thikapayment);
+    }
+    public void gotoHome(View V){
 
-        });
+
+        Intent myIntent = new Intent(ThikaPaymentActivity.this,locationspecactivity.class);
+        startActivity(myIntent);
+
+    }
+
+    public void gotocheckout(View V){
+
+
+        Intent myIntent = new Intent(ThikaPaymentActivity.this,CheckoutActivity.class);
+        startActivity(myIntent);
+
     }
 }
