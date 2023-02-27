@@ -15,8 +15,20 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/bus_booking_round_logo"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Neumorphism"
+        android:theme="@style/AppTheme.ActionBar.Transparent"
         tools:ignore="AllowBackup">
+        <activity
+            android:name=".KikuyuRoutesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlsopsEmbakasiroutesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WestlandsPricesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NairobiWestlandsActivity"
+            android:exported="false" />
         <activity
             android:name=".MainRoutesActivity"
             android:exported="false" />
@@ -49,28 +61,7 @@
             android:exported="false"
             android:label="@string/title_activity_maps_thika" />
         <activity
-            android:name=".Kenyattaroadbooking"
-            android:exported="false" />
-        <activity
-            android:name=".Ruirubooking"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity2"
-            android:exported="false" />
-        <activity
-            android:name=".Checkouttawala"
-            android:exported="false" />
-        <activity
-            android:name=".Checkoutbypss"
-            android:exported="false" />
-        <activity
-            android:name=".CheckoutRuiru"
-            android:exported="false" />
-        <activity
-            android:name=".checkoutjuj"
-            android:exported="false" />
-        <activity
-            android:name=".checkoutthik"
             android:exported="false" />
         <activity
             android:name=".MapsActivityBypass"
@@ -89,10 +80,7 @@
             android:exported="false"
             android:label="@string/title_activity_maps_activityruiru" />
         <activity
-            android:name=".NairobiwestyrouteActivity"
-            android:exported="false" />
-        <activity
-            android:name=".locationspecactivity"
+            android:name=".ThikalocationsspecificActivity"
             android:exported="false" />
         <activity
             android:name=".MapsActivitybet"
@@ -105,7 +93,7 @@
             android:name=".WestlandsBookingActivity"
             android:exported="false" />
         <activity
-            android:name=".NairobiTownActivity"
+            android:name=".NairobiTownBookingActivity"
             android:exported="false" />
         <activity
             android:name=".LimuruRDBookingActivity"
@@ -114,16 +102,13 @@
             android:name=".KikuyuBookingActivity"
             android:exported="false" />
         <activity
-            android:name=".JujaBookingActivity"
-            android:exported="false" />
-        <activity
             android:name=".PaymentconfimationAtivity"
             android:exported="false" />
         <activity
             android:name=".RuiaActivity"
             android:exported="false" />
         <activity
-            android:name=".NairobiTownCbdActivity"
+            android:name=".NairobiTownPricesActivity"
             android:exported="false" />
         <activity
             android:name=".LimururdActivity"
@@ -133,9 +118,6 @@
             android:exported="false" />
         <activity
             android:name=".KikuyuActvity"
-            android:exported="false" />
-        <activity
-            android:name=".JujaActivity"
             android:exported="false" />
         <activity
             android:name=".MapsActivity"

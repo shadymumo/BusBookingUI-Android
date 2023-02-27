@@ -9,14 +9,14 @@
     android:scrollbarStyle="insideOverlay"
     android:scrollbars="vertical"
     android:verticalScrollbarPosition="right"
-    tools:context=".MainRoutesActivity">
+    tools:context=".ThikalocationsspecificActivity">
 
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#096FEC"
+        android:background="@color/highlight"
         android:theme="@style/AppTheme.AppBarOverlay"
         app:elevation="0dp">
 
@@ -41,13 +41,7 @@
                     android:onClick="gotoHomepage"
                     android:src="@drawable/ic_arrow_back_white_24dp" />
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentEnd="true"
-                    android:onClick="gotoHomepage"
-                    android:src="@drawable/ic_person_outline_white_24dp" />
+
 
             </RelativeLayout>
 
@@ -95,15 +89,42 @@
 
             android:id="@+id/btnthokaroute"
             style="@style/Widget.Neumorph.Button"
-            android:layout_width="wrap_content"
+            android:layout_width="339dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
 
             android:fontFamily="sans-serif"
 
-            android:onClick="gototHIKROUTE"
-            android:text="THIKA >JUJA >RUIRU > SGR STATION"
+            android:onClick="gotothikdirect"
+            android:text="THIKA "
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            app:neumorph_lightSource="rightBottom"
+            app:neumorph_shadowColorDark="@color/text_color"
+
+            app:neumorph_shadowElevation="3dp"
+            app:neumorph_shapeType="flat"
+
+
+            >
+
+        </soup.neumorphism.NeumorphButton>
+
+
+        <soup.neumorphism.NeumorphButton
+
+            android:id="@+id/btnjujaroute"
+            style="@style/Widget.Neumorph.Button"
+            android:layout_width="339dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+
+            android:fontFamily="sans-serif"
+
+            android:onClick="gotojujbooking"
+            android:text="juja "
             android:textColor="#FFFFFF"
             android:textSize="16dp"
             app:neumorph_lightSource="rightBottom"
@@ -119,92 +140,80 @@
 
         <soup.neumorphism.NeumorphButton
 
-            android:id="@+id/btnnairobiroutes"
+            android:id="@+id/btnRuiruroute"
             style="@style/Widget.Neumorph.Button"
-            android:layout_width="333dp"
-            android:layout_height="67dp"
+            android:layout_width="339dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
 
             android:fontFamily="sans-serif"
 
-
-            android:onClick="gotoNairobiwestyTown"
-            android:text="NAIROBI CBD AND WESTLANDS"
+            android:onClick="gotojujbooking"
+            android:text="ruiru "
             android:textColor="#FFFFFF"
-            android:textSize="16sp"
+            android:textSize="16dp"
             app:neumorph_lightSource="rightBottom"
             app:neumorph_shadowColorDark="@color/text_color"
+
             app:neumorph_shadowElevation="3dp"
-            app:neumorph_shapeType="flat">
+            app:neumorph_shapeType="flat"
+
+
+            >
+
+        </soup.neumorphism.NeumorphButton>
+
+
+        <soup.neumorphism.NeumorphButton
+
+            android:id="@+id/btnkikuyuroute"
+            style="@style/Widget.Neumorph.Button"
+            android:layout_width="339dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+
+            android:fontFamily="sans-serif"
+
+            android:onClick="gotojujbooking"
+            android:text="kikuyu "
+            android:textColor="#FFFFFF"
+            android:textSize="16dp"
+            app:neumorph_lightSource="rightBottom"
+            app:neumorph_shadowColorDark="@color/text_color"
+
+            app:neumorph_shadowElevation="3dp"
+            app:neumorph_shapeType="flat"
+
+
+            >
 
         </soup.neumorphism.NeumorphButton>
 
         <soup.neumorphism.NeumorphButton
 
-            android:id="@+id/btnembaroutes"
+            android:id="@+id/btnbypassroute"
             style="@style/Widget.Neumorph.Button"
-            android:layout_width="337dp"
-            android:layout_height="69dp"
+            android:layout_width="339dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
 
             android:fontFamily="sans-serif"
 
-
-            android:onClick="gotoAlsops"
-            android:text="ALLSOPS >EMBAKASI ROUTE"
+            android:onClick="gotojujbooking"
+            android:text="Kamakis/ bypass/utawala"
             android:textColor="#FFFFFF"
-            android:textSize="16sp"
+            android:textSize="16dp"
             app:neumorph_lightSource="rightBottom"
             app:neumorph_shadowColorDark="@color/text_color"
+
             app:neumorph_shadowElevation="3dp"
-            app:neumorph_shapeType="flat">
-
-        </soup.neumorphism.NeumorphButton>
-
-        <soup.neumorphism.NeumorphButton
-
-            android:id="@+id/btnkikuyuroutes"
-            style="@style/Widget.Neumorph.Button"
-            android:layout_width="338dp"
-            android:layout_height="70dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-
-            android:fontFamily="sans-serif"
+            app:neumorph_shapeType="flat"
 
 
-            android:text="KIKUYU ROUTE"
-            android:textColor="#FFFFFF"
-            android:textSize="16sp"
-
-            app:neumorph_lightSource="rightBottom"
-            app:neumorph_shadowColorDark="@color/text_color"
-            app:neumorph_shadowElevation="3dp"
-            app:neumorph_shapeType="flat">
-
-        </soup.neumorphism.NeumorphButton>
-
-        <soup.neumorphism.NeumorphButton
-
-            android:id="@+id/btnruakakiamburoutes"
-            style="@style/Widget.Neumorph.Button"
-            android:layout_width="347dp"
-            android:layout_height="66dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-
-            android:fontFamily="sans-serif"
-
-
-            android:text="KIAMBU > RUAKA ROUTE"
-            android:textColor="#FFFFFF"
-            android:textSize="16sp"
-            app:neumorph_lightSource="rightBottom"
-            app:neumorph_shadowColorDark="@color/text_color"
-            app:neumorph_shadowElevation="3dp"
-            app:neumorph_shapeType="flat">
+            >
 
         </soup.neumorphism.NeumorphButton>
     </LinearLayout>

@@ -20,7 +20,7 @@ public class ThikaPaymentActivity extends AppCompatActivity {
     public void gotoHome(View V){
 
 
-        Intent myIntent = new Intent(ThikaPaymentActivity.this,locationspecactivity.class);
+        Intent myIntent = new Intent(ThikaPaymentActivity.this, ThikalocationsspecificActivity.class);
         startActivity(myIntent);
 
     }

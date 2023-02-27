@@ -6,12 +6,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class locationspecactivity extends AppCompatActivity {
+public class ThikalocationsspecificActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_locationspecactivity);
+        setContentView(R.layout.activity_thikalocationsspecific);
 
 
 
@@ -24,7 +24,7 @@ public class locationspecactivity extends AppCompatActivity {
     public void gotoHome(View V){
 
 
-        Intent myIntent = new Intent(locationspecactivity.this,MainActivity.class);
+        Intent myIntent = new Intent(ThikalocationsspecificActivity.this,MainActivity.class);
         startActivity(myIntent);
 
     }
@@ -32,18 +32,12 @@ public class locationspecactivity extends AppCompatActivity {
     public void gotothikdirect(View V){
 
 
-        Intent myIntent = new Intent(locationspecactivity.this, ThikabookingActivity.class);
+        Intent myIntent = new Intent(ThikalocationsspecificActivity.this, ThikabookingActivity.class);
         startActivity(myIntent);
 
     }
 
-    public void gotojujbooking(View V){
 
-
-        Intent myIntent = new Intent(locationspecactivity.this,JujaBookingActivity.class);
-        startActivity(myIntent);
-
-    }
 
 
     }

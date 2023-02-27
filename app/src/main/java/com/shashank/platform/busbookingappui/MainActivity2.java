@@ -17,7 +17,7 @@ public class MainActivity2 extends AppCompatActivity {
     public void gotoHome(View V){
 
 
-        Intent myIntent = new Intent(MainActivity2.this,locationspecactivity.class);
+        Intent myIntent = new Intent(MainActivity2.this, ThikalocationsspecificActivity.class);
         startActivity(myIntent);
 
     }

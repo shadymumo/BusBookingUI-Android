@@ -8,7 +8,80 @@ import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
 
-public class RuiaActivity extends AppCompatActivity {
+public class
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+RuiaActivity extends AppCompatActivity {
     CardView cardView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

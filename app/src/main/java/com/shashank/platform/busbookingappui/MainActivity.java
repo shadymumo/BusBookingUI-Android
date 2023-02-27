@@ -36,24 +36,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(myIntent);
 
     }
-    public void gotoDatepicker2(View V){
 
 
-        Intent myIntent = new Intent(MainActivity.this,DatePicker2Activity.class);
-        startActivity(myIntent);
-
-    }
-    public void gotoDriverportal(View V){
-
-
-        Intent myIntent = new Intent(MainActivity.this,DriverLogin.class);
-        startActivity(myIntent);
-
-    }
     public void gototHIKROUTE(View V){
 
 
-        Intent myIntent = new Intent(MainActivity.this,locationspecactivity.class);
+        Intent myIntent = new Intent(MainActivity.this, ThikalocationsspecificActivity.class);
         startActivity(myIntent);
 
     }
@@ -67,13 +55,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void gotoJuja(View V){
 
-
-        Intent myIntent = new Intent(MainActivity.this,JujaActivity.class);
-        startActivity(myIntent);
-
-    }
 
 
 
@@ -87,13 +69,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    public void gotoNairobi(View V){
-
-
-        Intent myIntent = new Intent(MainActivity.this,NairobiTownCbdActivity.class);
-        startActivity(myIntent);
-
-    }
 
 
     public void gotoDriverLogin(View V){

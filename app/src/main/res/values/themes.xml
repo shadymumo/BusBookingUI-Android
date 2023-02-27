@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="Theme.Neumorphism.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Neumorphism.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Neumorphism.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

@@ -9,7 +9,7 @@
     android:scrollbarStyle="insideOverlay"
     android:scrollbars="vertical"
     android:verticalScrollbarPosition="right"
-    tools:context=".locationspecactivity">
+    tools:context=".NairobiWestlandsActivity">
 
 
     <com.google.android.material.appbar.AppBarLayout
@@ -87,7 +87,7 @@
 
         <soup.neumorphism.NeumorphButton
 
-            android:id="@+id/btnthokaroute"
+            android:id="@+id/btnNairobiroute"
             style="@style/Widget.Neumorph.Button"
             android:layout_width="339dp"
             android:layout_height="wrap_content"
@@ -96,8 +96,8 @@
 
             android:fontFamily="sans-serif"
 
-            android:onClick="gotothikdirect"
-            android:text="THIKA "
+            android:onClick="gotoNairobiPrices"
+            android:text="Nairobi CBD "
             android:textColor="#FFFFFF"
             android:textSize="16dp"
             app:neumorph_lightSource="rightBottom"
@@ -114,7 +114,7 @@
 
         <soup.neumorphism.NeumorphButton
 
-            android:id="@+id/btnjujaroute"
+            android:id="@+id/btnwestyroute"
             style="@style/Widget.Neumorph.Button"
             android:layout_width="339dp"
             android:layout_height="wrap_content"
@@ -123,34 +123,8 @@
 
             android:fontFamily="sans-serif"
 
-            android:onClick="gotojujbooking"
-            android:text="juja "
-            android:textColor="#FFFFFF"
-            android:textSize="16dp"
-            app:neumorph_lightSource="rightBottom"
-            app:neumorph_shadowColorDark="@color/text_color"
-
-            app:neumorph_shadowElevation="3dp"
-            app:neumorph_shapeType="flat"
-
-
-            >
-
-        </soup.neumorphism.NeumorphButton>
-
-        <soup.neumorphism.NeumorphButton
-
-            android:id="@+id/btnRuiruroute"
-            style="@style/Widget.Neumorph.Button"
-            android:layout_width="339dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-
-            android:fontFamily="sans-serif"
-
-            android:onClick="gotojujbooking"
-            android:text="ruiru "
+            android:onClick="gotowestyPrices"
+            android:text="Westlands "
             android:textColor="#FFFFFF"
             android:textSize="16dp"
             app:neumorph_lightSource="rightBottom"
@@ -165,57 +139,6 @@
         </soup.neumorphism.NeumorphButton>
 
 
-        <soup.neumorphism.NeumorphButton
-
-            android:id="@+id/btnkikuyuroute"
-            style="@style/Widget.Neumorph.Button"
-            android:layout_width="339dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-
-            android:fontFamily="sans-serif"
-
-            android:onClick="gotojujbooking"
-            android:text="kikuyu "
-            android:textColor="#FFFFFF"
-            android:textSize="16dp"
-            app:neumorph_lightSource="rightBottom"
-            app:neumorph_shadowColorDark="@color/text_color"
-
-            app:neumorph_shadowElevation="3dp"
-            app:neumorph_shapeType="flat"
-
-
-            >
-
-        </soup.neumorphism.NeumorphButton>
-
-        <soup.neumorphism.NeumorphButton
-
-            android:id="@+id/btnbypassroute"
-            style="@style/Widget.Neumorph.Button"
-            android:layout_width="339dp"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-
-            android:fontFamily="sans-serif"
-
-            android:onClick="gotojujbooking"
-            android:text="Kamakis/ bypass/utawala"
-            android:textColor="#FFFFFF"
-            android:textSize="16dp"
-            app:neumorph_lightSource="rightBottom"
-            app:neumorph_shadowColorDark="@color/text_color"
-
-            app:neumorph_shadowElevation="3dp"
-            app:neumorph_shapeType="flat"
-
-
-            >
-
-        </soup.neumorphism.NeumorphButton>
     </LinearLayout>
 
 

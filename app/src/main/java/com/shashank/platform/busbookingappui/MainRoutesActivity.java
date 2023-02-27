@@ -17,13 +17,7 @@ public class MainRoutesActivity extends AppCompatActivity {
 
 
 
-    public void gotoDatepicker2(View V){
 
-
-        Intent myIntent = new Intent(MainRoutesActivity.this,DatePicker2Activity.class);
-        startActivity(myIntent);
-
-    }
     public void gotoHomepage(View V){
 
 
@@ -34,11 +28,18 @@ public class MainRoutesActivity extends AppCompatActivity {
     public void gototHIKROUTE(View V){
 
 
-        Intent myIntent = new Intent(MainRoutesActivity.this,locationspecactivity.class);
+        Intent myIntent = new Intent(MainRoutesActivity.this, ThikalocationsspecificActivity.class);
         startActivity(myIntent);
 
     }
 
+    public void gotoNairobiwestyTown(View V){
+
+
+        Intent myIntent = new Intent(MainRoutesActivity.this,NairobiWestlandsActivity.class);
+        startActivity(myIntent);
+
+    }
 
     public void gotopage3(View V){
 
@@ -48,20 +49,20 @@ public class MainRoutesActivity extends AppCompatActivity {
 
     }
 
-    public void gotoJuja(View V){
+
+    public void gotoAlsops(View V){
 
 
-        Intent myIntent = new Intent(MainRoutesActivity.this,JujaActivity.class);
+        Intent myIntent = new Intent(MainRoutesActivity.this, AlsopsEmbakasiroutesActivity.class);
         startActivity(myIntent);
 
     }
 
 
-
     public void gotokikuyu(View V){
 
 
-        Intent myIntent = new Intent(MainRoutesActivity.this,KikuyuActvity.class);
+        Intent myIntent = new Intent(MainRoutesActivity.this,KikuyuRoutesActivity.class);
         startActivity(myIntent);
 
     }
@@ -71,7 +72,7 @@ public class MainRoutesActivity extends AppCompatActivity {
     public void gotoNairobi(View V){
 
 
-        Intent myIntent = new Intent(MainRoutesActivity.this,NairobiTownCbdActivity.class);
+        Intent myIntent = new Intent(MainRoutesActivity.this, NairobiTownPricesActivity.class);
         startActivity(myIntent);
 
     }
