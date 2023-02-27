@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/rellyblu"
+    android:onClick="gotoKiamburuaka"
     android:overScrollMode="ifContentScrolls"
     android:scrollbarStyle="insideOverlay"
     android:scrollbars="vertical"
@@ -175,10 +176,11 @@
             android:fontFamily="sans-serif"
 
 
+            android:onClick="gotoKikuyu"
             android:text="KIKUYU ROUTE"
             android:textColor="#FFFFFF"
-            android:textSize="16sp"
 
+            android:textSize="16sp"
             app:neumorph_lightSource="rightBottom"
             app:neumorph_shadowColorDark="@color/text_color"
             app:neumorph_shadowElevation="3dp"
@@ -198,6 +200,7 @@
             android:fontFamily="sans-serif"
 
 
+            android:onClick="gotoKiamburuaka"
             android:text="KIAMBU > RUAKA ROUTE"
             android:textColor="#FFFFFF"
             android:textSize="16sp"

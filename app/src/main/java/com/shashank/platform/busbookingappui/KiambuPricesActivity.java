@@ -6,22 +6,20 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class AlsopsEmbakasiroutesActivity extends AppCompatActivity {
+public class KiambuPricesActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_alsops_embakasiroutes);
+        setContentView(R.layout.activity_kiambu_prices);
     }
 
 
-    public void gotoAlsopsPrices(View V){
+    public void gotokiambubooking(View V){
 
 
-        Intent myIntent = new Intent(AlsopsEmbakasiroutesActivity.this,AlsopspricesActivity.class);
+        Intent myIntent = new Intent(KiambuPricesActivity.this,KiambuBookingActivity.class);
         startActivity(myIntent);
 
     }
-
-
 }

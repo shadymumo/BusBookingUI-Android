@@ -96,7 +96,7 @@
 
             android:fontFamily="sans-serif"
 
-            android:onClick="gotoNairobiPrices"
+            android:onClick="gotoAlsopsPrices"
             android:text="Alsops "
             android:textColor="#FFFFFF"
             android:textSize="16dp"
@@ -123,7 +123,7 @@
 
             android:fontFamily="sans-serif"
 
-            android:onClick="gotowestyPrices"
+
             android:text="Mutarakwa Lane "
             android:textColor="#FFFFFF"
             android:textSize="16dp"

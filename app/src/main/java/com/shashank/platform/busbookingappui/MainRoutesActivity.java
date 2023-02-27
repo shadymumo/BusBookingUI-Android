@@ -86,10 +86,10 @@ public class MainRoutesActivity extends AppCompatActivity {
 
     }
 
-    public void gotoRuai(View V){
+    public void gotoKiamburuaka(View V){
 
 
-        Intent myIntent = new Intent(MainRoutesActivity.this,RuiaActivity.class);
+        Intent myIntent = new Intent(MainRoutesActivity.this,KiambuRuakaRoutesActivity.class);
         startActivity(myIntent);
 
     }
@@ -105,10 +105,10 @@ public class MainRoutesActivity extends AppCompatActivity {
     }
 
 
-    public void gotoLimuru(View V){
+    public void gotoKikuyu(View V){
 
 
-        Intent myIntent = new Intent(MainRoutesActivity.this,LimururdActivity.class);
+        Intent myIntent = new Intent(MainRoutesActivity.this,KikuyuRoutesActivity.class);
         startActivity(myIntent);
 
     }

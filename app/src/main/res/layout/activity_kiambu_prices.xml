@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".KikuyuActvity">
+    tools:context=".WestlandsPricesActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#512da8"
-        android:theme="@style/AppTheme.AppBarOverlay"
+        android:background="@color/highlight"
+        android:theme="@style/Theme.Neumorphism"
         app:elevation="0dp">
 
         <androidx.appcompat.widget.Toolbar
@@ -58,6 +58,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="gotoalsopsbooking"
                 android:orientation="vertical">
 
                 <RelativeLayout
@@ -68,20 +69,19 @@
                         android:layout_width="match_parent"
                         android:layout_height="260dp"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/bus_image_2" />
+                        android:src="@drawable/rellyblu" />
 
                     <TextView
                         android:id="@+id/textView"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_alignParentTop="true"
-                        android:layout_centerHorizontal="true"
                         android:layout_marginTop="16dp"
-                        android:fontFamily="@font/print_clearly"
-                        android:text="Select your bus!"
+                        android:fontFamily="sans-serif-black"
+                        android:text="Select the time you want to travel"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF"
-                        android:textSize="18sp" />
+                        android:textSize="20sp" />
 
                     <LinearLayout
                         android:id="@+id/linearLayout"
@@ -97,7 +97,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="45"
                             android:fontFamily="@font/gotham"
-                            android:text="Kikuyu"
+                            android:text="Kiambu town"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
                             android:textSize="18sp" />
@@ -129,7 +129,7 @@
                         android:layout_below="@+id/linearLayout"
                         android:layout_marginTop="8dp"
                         android:fontFamily="@font/print_clearly"
-                        android:text="12th - Feb - 2019 | Tuesday"
+                        android:text="12th - Feb - | Tuesday"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF"
                         android:textSize="18sp" />
@@ -137,7 +137,7 @@
                 </RelativeLayout>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/cardView"
+                    android:id="@+id/cardView1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="8dp"
@@ -146,6 +146,7 @@
                     android:clickable="true"
                     android:focusable="true"
                     android:foreground="?android:attr/selectableItemBackground"
+                    android:onClick="gotokiambubooking"
                     app:cardCornerRadius="4dp"
                     app:cardUseCompatPadding="true"
                     app:contentPadding="16dp">
@@ -279,7 +280,7 @@
                                 android:layout_marginTop="4dp"
                                 android:layout_marginBottom="4dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="4 Hour"
+                                android:text="Deluxe service"
                                 android:textAlignment="textEnd"
                                 android:textColor="#b3b3b3" />
                         </LinearLayout>
@@ -353,7 +354,7 @@
                                 android:layout_marginTop="4dp"
                                 android:layout_marginBottom="4dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="3.15 Hour"
+                                android:text="fully booked"
                                 android:textAlignment="textEnd"
                                 android:textColor="#b3b3b3" />
                         </LinearLayout>
@@ -428,7 +429,7 @@
                                 android:layout_marginTop="4dp"
                                 android:layout_marginBottom="4dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="2.45 Hour"
+                                android:text="Express service"
                                 android:textAlignment="textEnd"
                                 android:textColor="#b3b3b3" />
                         </LinearLayout>
@@ -503,7 +504,7 @@
                                 android:layout_marginTop="4dp"
                                 android:layout_marginBottom="4dp"
                                 android:fontFamily="@font/calibri"
-                                android:text="3.00 Hour"
+                                android:text="One pick up point"
                                 android:textAlignment="textEnd"
                                 android:textColor="#b3b3b3" />
                         </LinearLayout>

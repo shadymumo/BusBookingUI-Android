@@ -9,14 +9,14 @@
     android:scrollbarStyle="insideOverlay"
     android:scrollbars="vertical"
     android:verticalScrollbarPosition="right"
-    tools:context=".KikuyuRoutesActivity">
+    tools:context=".NairobiWestlandsActivity">
 
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#3A8DCD"
+        android:background="@color/highlight"
         android:theme="@style/AppTheme.AppBarOverlay"
         app:elevation="0dp">
 
@@ -96,8 +96,8 @@
 
             android:fontFamily="sans-serif"
 
-            android:onClick="gotoKikuyuPrices"
-            android:text="Kikuyu "
+            android:onClick="gotoKiambuPrices"
+            android:text="Kiambu town "
             android:textColor="#FFFFFF"
             android:textSize="16dp"
             app:neumorph_lightSource="rightBottom"
@@ -123,8 +123,8 @@
 
             android:fontFamily="sans-serif"
 
-            android:onClick="gotowestyPrices"
-            android:text="Mutarakwa Lane "
+
+            android:text="Ruaka stage "
             android:textColor="#FFFFFF"
             android:textSize="16dp"
             app:neumorph_lightSource="rightBottom"
@@ -132,7 +132,7 @@
 
             app:neumorph_shadowElevation="3dp"
             app:neumorph_shapeType="flat"
-
+android:onClick="gotoRuakaPrices"
 
             >
 

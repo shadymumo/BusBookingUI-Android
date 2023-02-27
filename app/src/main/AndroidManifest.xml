@@ -18,6 +18,24 @@
         android:theme="@style/AppTheme.ActionBar.Transparent"
         tools:ignore="AllowBackup">
         <activity
+            android:name=".RuakaBookingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RuakaPricesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KiambuRuakaRoutesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KiambuBookingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlsopsbookingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlsopspricesActivity"
+            android:exported="false" />
+        <activity
             android:name=".KikuyuRoutesActivity"
             android:exported="false" />
         <activity
@@ -117,7 +135,7 @@
             android:name=".WestlandsActivity"
             android:exported="false" />
         <activity
-            android:name=".KikuyuActvity"
+            android:name=".KikuyupricingActvity"
             android:exported="false" />
         <activity
             android:name=".MapsActivity"

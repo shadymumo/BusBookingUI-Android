@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RuiaiBooking">
+    tools:context=".AlsopsbookingActivity">
 
 
     <com.google.android.material.appbar.AppBarLayout
@@ -98,7 +98,7 @@
                             android:layout_height="match_parent"
                             android:layout_weight="45"
                             android:fontFamily="@font/gotham"
-                            android:text="Ruai"
+                            android:text="Alsops stage"
                             android:textAlignment="center"
                             android:textColor="#FFFFFF"
                             android:textSize="18sp" />
@@ -130,13 +130,13 @@
                         android:layout_below="@+id/linearLayout"
                         android:layout_marginTop="8dp"
                         android:fontFamily="@font/print_clearly"
-                        android:text="12th - Feb - 2019 | Tuesday"
+                        android:text="12th - Feb - 2023 | Tuesday"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF"
                         android:textSize="18sp" />
 
                     <androidx.cardview.widget.CardView
-                        android:id="@+id/cardView"
+                        android:id="@+id/cardBill"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_below="@+id/textView3"

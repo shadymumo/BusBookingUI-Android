@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
     public void gotokikuyu(View V){
 
 
-        Intent myIntent = new Intent(MainActivity.this,KikuyuActvity.class);
+        Intent myIntent = new Intent(MainActivity.this, KikuyupricingActvity.class);
         startActivity(myIntent);
 
     }
