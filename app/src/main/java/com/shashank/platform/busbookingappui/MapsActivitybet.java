@@ -2,12 +2,15 @@ package com.shashank.platform.busbookingappui;
 
 import androidx.fragment.app.FragmentActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.shashank.platform.busbookingappui.databinding.ActivityMapsActivitybetBinding;
@@ -45,10 +48,25 @@ public class MapsActivitybet extends FragmentActivity implements OnMapReadyCallb
 
         // Add a marker in Sydney and move the camera
         LatLng Thika = new LatLng(-1.035171, 37.075715);
-        mMap.addMarker(new MarkerOptions().position(Thika).title(" This is your pick up point"));
+        mMap.addMarker(new MarkerOptions()
+                .position(Thika)
 
+                .title(" This is your pick up point. WETEITHIE HOUSE 2ND FLOOR"
+               ));
+        mMap.isTrafficEnabled();
         mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(Thika,18));
 
 
     }
+
+
+    public void gotohome(View V){
+
+
+        Intent myIntent = new Intent(MapsActivitybet.this,MainActivity.class);
+        startActivity(myIntent);
+
+    }
 }
+
+

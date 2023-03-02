@@ -12,6 +12,7 @@ public class KiambuRuakaRoutesActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kiambu_ruaka_routes);
+
     }
 
 
@@ -20,14 +21,14 @@ public class KiambuRuakaRoutesActivity extends AppCompatActivity {
     public void gotoKiambuPrices(View V){
 
 
-        Intent myIntent = new Intent(KiambuRuakaRoutesActivity.this,AlsopspricesActivity.class);
+        Intent myIntent = new Intent(KiambuRuakaRoutesActivity.this,KiambuPricesActivity.class);
         startActivity(myIntent);
 
     }
     public void gotoRuakaPrices(View V){
 
 
-        Intent myIntent = new Intent(KiambuRuakaRoutesActivity.this,AlsopspricesActivity.class);
+        Intent myIntent = new Intent(KiambuRuakaRoutesActivity.this,RuakaPricesActivity.class);
         startActivity(myIntent);
 
     }

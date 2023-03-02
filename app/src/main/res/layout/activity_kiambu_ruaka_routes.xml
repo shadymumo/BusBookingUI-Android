@@ -96,7 +96,7 @@
 
             android:fontFamily="sans-serif"
 
-            android:onClick="gotoKiambuPrices"
+
             android:text="Kiambu town "
             android:textColor="#FFFFFF"
             android:textSize="16dp"

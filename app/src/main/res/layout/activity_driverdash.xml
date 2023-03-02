@@ -4,12 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DriverdashActivity"
-    android:background="@drawable/bus_image_3"
+    android:background="@drawable/rellyblu"
     android:orientation="vertical"
-
     android:weightSum="10"
-    >
+
+    tools:context=".DriverdashActivity">
 
     <soup.neumorphism.NeumorphCardView
         android:id="@+id/neumorphCardView2"
@@ -25,10 +24,10 @@
             android:layout_weight="8"
             android:alignmentMode="alignMargins"
             android:background="@null"
-            android:padding="14dp"
             android:drawablePadding="5dp"
             android:hint="Search here"
-            android:textColorHint="@color/highlight"/>
+            android:padding="14dp"
+            android:textColorHint="@color/colorPrimaryDark" />
     </soup.neumorphism.NeumorphCardView>
 
     <GridLayout
@@ -50,14 +49,17 @@
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-
-            android:background="@color/background_color"
-            android:elevation="4dp"
-            android:fadingEdge="horizontal"
-            android:filterTouchesWhenObscured="true"
-            android:onClick="gotoOfficeLocation"
+            app:neumorph_lightSource="rightBottom"
             app:neumorph_shadowColorDark="@color/text_color"
-           >
+
+            app:neumorph_shadowElevation="3dp"
+            app:neumorph_shapeType="flat"
+            android:background="@color/background_color"
+
+
+
+            android:onClick="gotoOfficeLocation"
+          >
 
             <View
                 android:layout_width="169dp"
@@ -97,7 +99,7 @@
                     android:onClick="gotoOfficeLocation"
                     android:text="Office Location"
                     android:textAlignment="center"
-                    android:textColor="@color/highlight"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="20sp" />
             </LinearLayout>
         </soup.neumorphism.NeumorphCardView>
@@ -108,8 +110,11 @@
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
-            app:neumorph_shapeType="pressed"
-            >
+            app:neumorph_lightSource="rightBottom"
+            app:neumorph_shadowColorDark="@color/text_color"
+
+            app:neumorph_shadowElevation="3dp"
+            app:neumorph_shapeType="flat">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -143,7 +148,7 @@
                     android:gravity="center_horizontal"
                     android:text="Client Location"
                     android:textAlignment="center"
-                    android:textColor="@color/highlight"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textSize="20sp" />
 
             </LinearLayout>
@@ -156,7 +161,13 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
-            android:layout_columnWeight="1">
+            android:layout_columnWeight="1"
+            app:neumorph_lightSource="rightBottom"
+            app:neumorph_shadowColorDark="@color/text_color"
+
+            app:neumorph_shadowElevation="3dp"
+            app:neumorph_shapeType="flat"
+        >
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -181,6 +192,7 @@
 
                         android:backgroundTint="#ffff" />
                 </LinearLayout>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -189,7 +201,7 @@
                     android:text="Trip data"
 
                     android:textAlignment="center"
-                    android:textColor="@color/highlight"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textSize="20sp" />
 
             </LinearLayout>
@@ -201,6 +213,12 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
+
+            app:neumorph_lightSource="rightBottom"
+            app:neumorph_shadowColorDark="@color/text_color"
+
+            app:neumorph_shadowElevation="3dp"
+            app:neumorph_shapeType="flat"
             android:layout_columnWeight="1">
 
             <LinearLayout
@@ -236,7 +254,7 @@
                     android:onClick="gotoOfficeLocation"
                     android:text="HElP"
                     android:textAlignment="center"
-                    android:textColor="@color/highlight"
+                    android:textColor="@color/colorPrimary"
                     android:textSize="20sp" />
 
             </LinearLayout>
@@ -249,6 +267,12 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
+
+            app:neumorph_lightSource="rightBottom"
+            app:neumorph_shadowColorDark="@color/text_color"
+
+            app:neumorph_shadowElevation="3dp"
+            app:neumorph_shapeType="flat"
             android:layout_columnWeight="1">
 
             <View
@@ -290,7 +314,7 @@
 
                     android:text="Log out"
                     android:textAlignment="center"
-                    android:textColor="@color/highlight"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textSize="20sp" />
 
             </LinearLayout>
@@ -302,6 +326,12 @@
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
+
+            app:neumorph_lightSource="rightBottom"
+            app:neumorph_shadowColorDark="@color/text_color"
+
+            app:neumorph_shadowElevation="3dp"
+            app:neumorph_shapeType="flat"
             android:layout_columnWeight="1">
 
             <LinearLayout
@@ -339,7 +369,7 @@
                     android:onClick="gotoOfficeLocation"
                     android:text="Home"
                     android:textAlignment="center"
-                    android:textColor="@color/highlight"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textSize="20sp" />
             </LinearLayout>
         </soup.neumorphism.NeumorphCardView>
