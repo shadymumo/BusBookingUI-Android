@@ -5,35 +5,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/rellyblu"
+
     android:orientation="vertical"
+
     android:weightSum="10"
+    tools:context=".MainRoutesActivity">
 
-    tools:context=".DriverdashActivity">
 
-    <soup.neumorphism.NeumorphCardView
-        android:id="@+id/neumorphCardView2"
+    <ImageView
+        android:id="@+id/logohii"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp">
+        android:layout_height="138dp"
+        app:srcCompat="@drawable/github_logo" />
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="8"
-            android:alignmentMode="alignMargins"
-            android:background="@null"
-            android:drawablePadding="5dp"
-            android:hint="Search here"
-            android:padding="14dp"
-            android:textColorHint="@color/colorPrimaryDark" />
-    </soup.neumorphism.NeumorphCardView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/calibri"
+        android:text="Get to SGR station in Time by choosing your route"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
 
     <GridLayout
         android:id="@+id/mainGrid"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="532dp"
         android:layout_weight="8"
         android:alignmentMode="alignMargins"
         android:columnCount="2"
@@ -49,21 +47,16 @@
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
+            android:background="@color/background_color"
+            android:onClick="gototHIKROUTE"
+
             app:neumorph_lightSource="rightBottom"
             app:neumorph_shadowColorDark="@color/text_color"
-
             app:neumorph_shadowElevation="3dp"
-            app:neumorph_shapeType="flat"
-            android:background="@color/background_color"
 
 
+            app:neumorph_shapeType="flat">
 
-            android:onClick="gotoOfficeLocation"
-          >
-
-            <View
-                android:layout_width="169dp"
-                android:layout_height="139dp" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -72,32 +65,14 @@
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
-                <LinearLayout
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:layout_gravity="center_horizontal"
-                    android:background="@color/background_color"
-
-                    android:backgroundTint="#B41976D2"
-                    android:orientation="horizontal"
-                    android:padding="10dp">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_gravity="center_horizontal"
-
-                        android:backgroundTint="#ffff" />
-
-                </LinearLayout>
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="128dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:gravity="center_horizontal"
-                    android:onClick="gotoOfficeLocation"
-                    android:text="Office Location"
+
+                    android:text="THIKA>JUJA>RUIRU>SGR STATION"
                     android:textAlignment="center"
                     android:textColor="@color/background"
                     android:textSize="20sp" />
@@ -110,9 +85,10 @@
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
+            android:onClick="gotoNairobiwestyTown"
             app:neumorph_lightSource="rightBottom"
-            app:neumorph_shadowColorDark="@color/text_color"
 
+            app:neumorph_shadowColorDark="@color/text_color"
             app:neumorph_shadowElevation="3dp"
             app:neumorph_shapeType="flat">
 
@@ -123,34 +99,17 @@
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
-                <LinearLayout
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:layout_gravity="center_horizontal"
-                    android:background="@color/background_color"
-                    android:backgroundTint="#00838F"
-                    android:orientation="horizontal"
-                    android:padding="10dp">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_gravity="center_horizontal"
-
-                        android:backgroundTint="#ffff" />
-
-                </LinearLayout>
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="128dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:gravity="center_horizontal"
-                    android:text="Client Location"
+
+                    android:text="NAIROBI CBD AND WESTLANDS"
                     android:textAlignment="center"
                     android:textColor="@color/background"
                     android:textSize="20sp" />
-
             </LinearLayout>
 
         </soup.neumorphism.NeumorphCardView>
@@ -162,12 +121,12 @@
             android:layout_height="0dp"
             android:layout_rowWeight="1"
             android:layout_columnWeight="1"
+            android:onClick="gotoAlsops"
             app:neumorph_lightSource="rightBottom"
-            app:neumorph_shadowColorDark="@color/text_color"
 
+            app:neumorph_shadowColorDark="@color/text_color"
             app:neumorph_shadowElevation="3dp"
-            app:neumorph_shapeType="flat"
-        >
+            app:neumorph_shapeType="flat">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -176,35 +135,19 @@
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
-                <LinearLayout
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:layout_gravity="center_horizontal"
-                    android:background="@color/background_color"
-                    android:backgroundTint="#009688"
-                    android:orientation="horizontal"
-                    android:padding="10dp">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_gravity="center_horizontal"
-
-                        android:backgroundTint="#ffff" />
-                </LinearLayout>
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:layout_width="128dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:gravity="center_horizontal"
-                    android:text="Trip data"
 
+                    android:text="ALLSOPS >EMBAKASI ROUTE"
                     android:textAlignment="center"
                     android:textColor="@color/background"
                     android:textSize="20sp" />
-
             </LinearLayout>
+
 
         </soup.neumorphism.NeumorphCardView>
 
@@ -214,12 +157,13 @@
             android:layout_height="0dp"
             android:layout_rowWeight="1"
 
+            android:layout_columnWeight="1"
             app:neumorph_lightSource="rightBottom"
-            app:neumorph_shadowColorDark="@color/text_color"
 
+            app:neumorph_shadowColorDark="@color/text_color"
             app:neumorph_shadowElevation="3dp"
-            app:neumorph_shapeType="flat"
-            android:layout_columnWeight="1">
+            app:neumorph_shapeType="flat">
+
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -228,35 +172,17 @@
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
-                <LinearLayout
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:layout_gravity="center_horizontal"
-                    android:background="@color/background_color"
-                    android:backgroundTint="#FFC107"
-                    android:orientation="horizontal"
-                    android:padding="10dp">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_gravity="center_horizontal"
-
-                        android:backgroundTint="#ffff" />
-                </LinearLayout>
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_width="128dp"
+                    android:layout_height="wrap_content"
                     android:layout_marginTop="15dp"
                     android:gravity="center_horizontal"
 
-                    android:onClick="gotoOfficeLocation"
-                    android:text="HElP"
+                    android:text="KIKUYU ROUTE"
                     android:textAlignment="center"
-                    android:textColor="@color/colorPrimary"
+                    android:textColor="@color/background"
                     android:textSize="20sp" />
-
             </LinearLayout>
         </soup.neumorphism.NeumorphCardView>
 
@@ -268,16 +194,53 @@
             android:layout_height="0dp"
             android:layout_rowWeight="1"
 
+            android:layout_columnWeight="1"
             app:neumorph_lightSource="rightBottom"
-            app:neumorph_shadowColorDark="@color/text_color"
 
+            app:neumorph_shadowColorDark="@color/text_color"
             app:neumorph_shadowElevation="3dp"
-            app:neumorph_shapeType="flat"
-            android:layout_columnWeight="1">
+            app:neumorph_shapeType="flat">
 
             <View
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:onClick="gotoKiamburuaka" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="128dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:gravity="center_horizontal"
+
+                    android:text="KIAMBU > RUAKA ROUTE"
+                    android:textAlignment="center"
+                    android:textColor="@color/background"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <!-- COLUMN 2  -->
+        <soup.neumorphism.NeumorphCardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+
+            android:layout_columnWeight="1"
+            app:neumorph_lightSource="rightBottom"
+            android:onClick="gotoHomepage"
+            app:neumorph_shadowColorDark="@color/text_color"
+            app:neumorph_shadowElevation="3dp"
+            app:neumorph_shapeType="flat">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -292,15 +255,15 @@
                     android:layout_height="40dp"
                     android:layout_gravity="center_horizontal"
                     android:background="@color/background_color"
-                    android:backgroundTint="#E91E63"
+                    android:backgroundTint="#3F51B5"
                     android:orientation="horizontal"
                     android:padding="10dp">
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="19dp"
                         android:layout_height="match_parent"
                         android:layout_gravity="center_horizontal"
-
+                        android:src="@drawable/ic_arrow_back_white_24dp"
                         android:backgroundTint="#ffff" />
 
                 </LinearLayout>
@@ -312,65 +275,12 @@
                     android:layout_marginTop="15dp"
                     android:gravity="center_horizontal"
 
-                    android:text="Log out"
+
+                    android:text="Back"
                     android:textAlignment="center"
-                    android:textColor="@color/colorPrimaryDark"
+                    android:textColor="@color/background_color"
                     android:textSize="20sp" />
 
-            </LinearLayout>
-
-        </soup.neumorphism.NeumorphCardView>
-
-        <!-- COLUMN 2  -->
-        <soup.neumorphism.NeumorphCardView
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_rowWeight="1"
-
-            app:neumorph_lightSource="rightBottom"
-            app:neumorph_shadowColorDark="@color/text_color"
-
-            app:neumorph_shadowElevation="3dp"
-            app:neumorph_shapeType="flat"
-            android:layout_columnWeight="1">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal|center_vertical"
-                android:layout_margin="16dp"
-                android:orientation="vertical">
-
-                <LinearLayout
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:layout_gravity="center_horizontal"
-                    android:background="@color/background_color"
-                    android:backgroundTint="#4CAF50"
-                    android:onClick="gotoOfficeLocation"
-                    android:orientation="horizontal"
-                    android:padding="10dp">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_gravity="center_horizontal"
-
-                        android:backgroundTint="#ffff" />
-
-                </LinearLayout>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="15dp"
-                    android:gravity="center_horizontal"
-
-                    android:onClick="gotoOfficeLocation"
-                    android:text="Home"
-                    android:textAlignment="center"
-                    android:textColor="@color/colorPrimaryDark"
-                    android:textSize="20sp" />
             </LinearLayout>
         </soup.neumorphism.NeumorphCardView>
     </GridLayout>
